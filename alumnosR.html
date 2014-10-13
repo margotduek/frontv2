@@ -7,14 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/estilos.css">
     <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/estilosAlumnos.css">
     <title>TutorOnline</title>
 	</head>
 	
 
 	<body>
-		<div class="novbar-wrapper" style=" z-index:9999999; position:relative;" >
+		<div class="novbar-wrapper" id="novbar" style=" z-index:9999999; position:relative;" >
 			<div class="container">
 				<div class="navbar navbar-fixed-top" id="menu" role="navigation">
 						<div class="header-relativo" >
@@ -58,38 +57,51 @@
 		      	</ol>
 	        <div class="carousel-inner">
 		        	<div class="item active">
-		          		<img src="Disenos/Tutor_Online_Pag/Img_iconos/FotoSlide/1b.jpg" alt="First slide">
+		          		<img src="imagenesAlumnos/1A.jpg" alt="First slide">
 		          		<div class="container">
-		            		<div class="carousel-caption">
-		                		<h1>Frase TutorOnline</h1>
-	                			<p>Estudia mucho y se feliz!</p>		
+		            		<div class="carousel-caption" style="margin-bottom:20%;" >
+		                		<p>Frase TutorOnline</p>
+	                			<p>Estudia mucho y se feliz!</p>
+	                			<div class="center-block centerBlock" style="width:600px; height: 65px;">
+									<input type="text" id="input2" placeholder="Buscar materias...">
+								</div>		
 		            		</div>
+		            		
 		          		</div>
 		        	</div>
 		        <div class="item">
-	            	<img src="Disenos/Tutor_Online_Pag/Img_iconos/FotoSlide/2.jpg" alt="Second slide">
+	            	<img src="imagenesAlumnos/2.jpg" alt="Second slide">
 	            	<div class="container">
-		            		<div class="carousel-caption">
-		                		<h1>Frase TutorOnline</h1>
-	                			<p>Estudia mucho y se feliz!</p>		
+		            		<div class="carousel-caption" style="margin-bottom:20%;" >
+		                		<p>Frase TutorOnline</p>
+	                			<p>Estudia mucho y se feliz!</p>	
+	                			<div class="center-block centerBlock">
+									<input type="text" id="input2" placeholder="Buscar materias...">
+								</div>		
 		            		</div>
 		          		</div>
 	        	</div>
 		    	<div class="item">
-		        	<img src="Disenos/Tutor_Online_Pag/Img_iconos/FotoSlide/listo3conpx.png" alt="Third slide">
+		        	<img src="imagenesAlumnos/3.jpg" alt="Third slide">
 		        	<div class="container">
-		            		<div class="carousel-caption">
-		                		<h1>Frase TutorOnline</h1>
-	                			<p>Estudia mucho y se feliz!</p>		
+		            		<div class="carousel-caption" style="margin-bottom:20%;" >
+		                		<p>Frase TutorOnline</p>
+	                			<p>Estudia mucho y se feliz!</p>	
+	                			<div class="center-block centerBlock" style="width:600px; height: 65px;">
+									<input type="text" id="input2" placeholder="Buscar materias...">
+								</div>		
 		            		</div>
 		          		</div>
 	        	</div>
 		    	<div class="item">
-		        	<img src="Disenos/Tutor_Online_Pag/Img_iconos/FotoSlide/4.jpg" alt="cuarta slide">
+		        	<img src="imagenesAlumnos/4.png" alt="cuarta slide">
 		        	<div class="container">
-		            		<div class="carousel-caption">
-		                		<h1>Frase TutorOnline</h1>
-	                			<p>Estudia mucho y se feliz!</p>		
+		            		<div class="carousel-caption" style="margin-bottom:20%;" >
+		                		<p>Frase TutorOnline</p>
+	                			<p>Estudia mucho y se feliz!</p>	
+	                			<div class="center-block centerBlock" style="width:600px; height: 65px;">
+									<input type="text" id="input2" placeholder="Buscar materias...">
+								</div>		
 		            		</div>
 		          		</div>
 		    	</div>
@@ -101,10 +113,70 @@
 
     
 
+		<div class="row" id="historialDeClases">
+			<p>historial de clases</p>
+		</div>
+		<HR width="100%" align="left">
+		<div class="row" style="padding:50px;">
+          <table class="table table-condensed" id="historialTabla">
+            <thead>
+              <tr>
+                <th>Foto</th>
+                <th>nombre</th>
+                <th>materia</th>
+                <th>fecha</th>
+                <th>duracion</th>
+                <th>costo</th>
+                <th>folio</th>
+                <th>rating</th>
+                <th>status actual</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img class="img-circle" src="Disenos/Tutor_Online_Pag/img_iconos/imagenespasosaseguir/elige.png" alt="Generic placeholder image" style="width:75px;"></td>
+                <td>Sofia Rojas</td>
+                <td>Economia</td>
+                <td>23/11/14</td>
+                <td>1:03 hrs</td>
+                <td>$253</td>
+                <td>SofRoj23</td>
+                <td>W W W W W</td>
+                <td style="color: rgb(255,0,0) !important; font-family: ralewaybold;">Offline</td>
+
+              </tr>
+              <tr>
+                <td><img class="img-circle" src="Disenos/Tutor_Online_Pag/img_iconos/imagenespasosaseguir/elige.png" alt="Generic placeholder image" style="width:75px;"></td>
+                <td>Eugendio de la varca</td>
+                <td>Economia</td>
+                <td>23/11/14</td>
+                <td>1:03 hrs</td>
+                <td>$253</td>
+                <td>SofRoj23</td>
+                <td></td>
+                <td style="color: rgb(0,255,52) !important; font-family: ralewaybold;">Online</td>
+              </tr>
+              <tr>
+                <td><img class="img-circle" src="Disenos/Tutor_Online_Pag/img_iconos/imagenespasosaseguir/elige.png" alt="Generic placeholder image" style="width:75px;"></td>
+                <td>Sofia Rojas</td>
+                <td>Economia</td>
+                <td>23/11/14</td>
+                <td>1:03 hrs</td>
+                <td>$253</td>
+                <td>SofRoj23</td>
+                <td></td>
+                <td style="color: rgb(0,255,52) !important; font-family: ralewaybold;">Online</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
 
 
 		
-		
+
+
 		<div class=" footer" id="footer">
 			<div class="row-fluid">
         		<ul class="list-inline" style="margin-top: 50px; margin-bottom: 7px; padding-top: 50px">
@@ -142,22 +214,12 @@
 	    	$('#myCarousel').css('height', ventana);
 	    	$('.carousel-inner .item img').css({height: ventana, width: '100%'});
 	    	
-	    	$('.ventanaModal').click(function(){
-	    		console.log("hola!");
-		    
-		    /*var $me = $(this);
-		  	var id  = $me.data('equipo');
-		  
-		  	$('#iniciaSecion').on('show.bs.modal', function () {
 
-		      modalBody = $('.modal-content');
-		      modalBody.load("http://bootply.com/&"+id);
+			$('#novbar').waypoint(function(down) {
+				$( "#menu" ).addClass("swing");
 
-		     
-			});*/
-		  
-		    $('#iniciaSecion').modal();
-		});
+				console.log("funcioa el menu");
+			},{offset:50});
 	    });
 
 
