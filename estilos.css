@@ -1,0 +1,489 @@
+/* 
+
+
+ HOME PAGE
+
+
+ TutorOnline
+
+*/
+
+
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('raleway-light-webfont.eot');
+    src: url('raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-light-webfont.woff2') format('woff2'),
+         url('raleway-light-webfont.woff') format('woff'),
+         url('raleway-light-webfont.ttf') format('truetype'),
+         url('raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('raleway-bold-webfont.eot');
+    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-bold-webfont.woff2') format('woff2'),
+         url('raleway-bold-webfont.woff') format('woff'),
+         url('raleway-bold-webfont.ttf') format('truetype'),
+         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('raleway-extrabold-webfont.eot');
+    src: url('raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-extrabold-webfont.woff2') format('woff2'),
+         url('raleway-extrabold-webfont.woff') format('woff'),
+         url('raleway-extrabold-webfont.ttf') format('truetype'),
+         url('raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway-thin-webfont.eot');
+    src: url('raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-thin-webfont.woff2') format('woff2'),
+         url('raleway-thin-webfont.woff') format('woff'),
+         url('raleway-thin-webfont.ttf') format('truetype'),
+         url('raleway-thin-webfont.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('raleway-extralight-webfont.eot');
+    src: url('raleway-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-extralight-webfont.woff2') format('woff2'),
+         url('raleway-extralight-webfont.woff') format('woff'),
+         url('raleway-extralight-webfont.ttf') format('truetype'),
+         url('raleway-extralight-webfont.svg#ralewayextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-brand img{
+	height:35px !important;
+}
+#menu{
+	background-color: rgba(0,0,0,0);
+}
+/*.menuTrans{
+	background-color: rgba(0,0,0,0.7) !important;
+	transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+}*/
+.header-relativo{
+	position: relative;
+	padding: 15px;
+	height: inherit;
+}
+
+#logoTutor{
+	margin-right: 36px;
+}
+
+.navbar-wrapper{
+	height: 80px;
+}
+.spacer-blanco{
+	height: 30px;
+	min-width: 1px;
+	max-width: 1px;
+	background-color: white;
+}
+
+.textoPrimero{
+	font-family: ralewaybold;
+	font-size: 4.4em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	text-transform: uppercase;
+	margin-bottom:0px;
+}
+.textoPrimero p{
+	margin:0px !important;
+	line-height:60.5px;
+}
+.texto2{
+	font-family: ralewaylight;
+	font-size: 1.8em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+	margin-bottom:100px;
+}
+
+.derecha{
+	position: absolute !important;
+	right: 40px;
+}
+.header-texto a{
+	font-family: ralewaybold;
+	font-size: 1.2em;
+	color: white !important;
+	text-align: center;
+	padding: 10px 22px !important;
+	text-transform: uppercase;
+}
+#input2{
+	display:block !important; 
+	width: 600px; 
+	height:65px; 
+	background: rgba(255,255,255,0.5); 
+	border:none;
+	font-family: ralewaybold;
+	font-size: 2em;
+	color: rgb(75,75,75) !important;
+	padding-left: 35px; 
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+	background-image: url('../../Disenos/Tutor_Online_Pag/img_iconos/Logotipos/lupaNegra.png');
+	padding-left: 35px; 
+	background-size:33px;
+}
+
+.navbar-form input[type="text"]{
+	border-radius: 0;
+	width: 400px;
+	font-family: ralewaybold;
+	font-size: 1.2em;
+	background-color: rgba(175,175,175,0.5);
+	border: none;
+	color: white;
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+	background-image: url('../../Disenos/Tutor_Online_Pag/img_iconos/Logotipos/lupaBlanca.png');
+	padding-left: 35px; 
+	background-size:28px;
+}
+
+#input2::-webkit-input-placeholder {
+   color: rgb(75,75,75) !important;
+}
+
+#input2:-moz-placeholder { /* Firefox 18- */
+   color: rgb(75,75,75) !important; 
+}
+
+#input2::-moz-placeholder {  /* Firefox 19+ */
+   color:  rgb(75,75,75) !important;  
+}
+
+#input2:-ms-input-placeholder {  
+   color:  rgb(75,75,75) !important;  
+}
+
+#barraArriba::-webkit-input-placeholder {
+   color: white;
+}
+
+#barraArriba:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+#barraArriba::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+#barraArriba:-ms-input-placeholder {  
+   color: white;  
+}
+
+#iconosFooter li{
+	display:inline-block;
+	margin-top:35px;
+
+}
+
+.navbar-form{
+	padding: 10px;
+	margin: 0;
+}
+#registrate a{
+	padding-top: 19px !important;
+}
+
+
+.dibo2 {
+    background: url('../../Disenos/Tutor_Online_Pag/img_iconos/Texturas/separador1.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:compact;
+    overflow-x: hidden;
+    margin:0px !important;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+#dibo2{
+	margin-top:4px;
+    margin-bottom:4px;
+}
+.textodibo2{
+	font-family: ralewaybold;
+	font-size: 1.8em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+}
+.sec2{
+	
+	margin-left:0px !important;
+	margin-right:0px !important;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:compact;
+    overflow-x: hidden;
+}
+#imgTutoAlumn{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.container{
+	width:75%;
+}
+.list-inline li img{
+	width:140px;
+}
+.list-inline li h6{
+	padding:0px;
+	margin:0px !important; 
+	font-family: ralewaylight;
+	font-size: .3em;
+	color: black !important;
+	text-align: center;
+	padding: 10px 22px !important;
+
+}
+.sec3{
+	background: url('../../Disenos/Tutor_Online_Pag/img_iconos/Texturas/textura3.png') no-repeat center center ;
+	margin-left:0px !important;
+	margin-right:0px !important;
+	height:100%;
+	width:100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:compact;
+    overflow-x: hidden;
+}
+.sec3 p{
+	font-family: ralewaybold;
+	font-size: 5em;
+	color: rgb(109,109,109) !important;
+	text-align: center;
+	padding: 2px 2px !important;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.dibo3{
+	background: url('../../Disenos/Tutor_Online_Pag/img_iconos/Texturas/separador2.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:compact;
+    overflow-x: hidden;
+    text-transform: uppercase;
+}
+.dibo3 p{
+	font-family: ralewaybold;
+	font-size: 1.8em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+}
+.sec4{
+	background-color: rgba(0,0,0,0);
+
+}
+.col-lg-4 p{
+	font-family: ralewaylight;
+	font-size: 1.8em;
+	color: black !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;	
+	margin-left:88px;
+	margin-right:88px;
+}
+.col-lg-4 h2{
+	font-family: ralewaybold;
+	font-size: 2em;
+	color: rgb(0,88,148) !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;	
+}
+.col-lg-4 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20%;
+	margin-bottom:50px;
+}
+#sec4Unete{
+	font-family: ralewaylight;
+	font-size: 3.5em ;
+	color: rgb(109,109,109) !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:15px;	
+}
+.footer{
+	background-color: rgb(0,0,0);
+	height:200px;
+}
+#toBl{
+	height:100px !important ;
+	width:125px !important;
+}
+#epic{
+	height:100px !important ;
+	width:125px !important;	
+}
+#tw img{
+	height:50px !important;
+	width:50px !important;
+}
+#fb img{
+	height:50px !important;
+	width:50px !important;
+}
+
+#iconosFooter li{
+	display:inline-block;
+	margin-top:35px;
+}
+.modal-body h3{
+	font-family: ralewaybold;
+	font-size: 2.5em;
+	color:  rgb(75,75,75) !important; 
+	text-align: center;
+	padding: 0px 0px !important;
+	text-transform: uppercase;
+	margin-bottom:0px
+}
+.modal-body h4{
+	font-family: ralewaylight;
+	font-size: 2em;
+	color:  rgb(75,75,75) !important; 
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+	margin-bottom:100px;
+}
+#botonesDeModal{
+        color: rgb(0,0,205) !important;
+        background:rgb(20,60,95) !important;
+        border:0px;
+        width:48%;
+        height:95px;
+        padding:20px;
+}
+#botonesDeModal p{
+	font-family: ralewaybold;
+	font-size: 1.8em;
+	color:  white !important; 
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+	margin-bottom:100px;
+	padding-top:50px;
+
+}
+#inputModal{
+	display:block !important; 
+	width: 100%; 
+	height:50px; 
+	font-family: ralewaylight;
+	font-size: 1.4em;
+	color: rgb(75,75,75) !important;
+	padding-left: 7px; 
+}
+#ok{
+	background-color:rgb(0,206,209) !important; 
+    border:0px;
+    width:180px;
+    height:50px;
+    padding:20px;
+	text-align: center;
+	margin-left: 31%;
+	margin-top: 45px;
+	margin-bottom:15px;
+	font-family: ralewaybold;
+	font-size: 1.5em;
+	color:  white !important; 	
+}
+#modalAbajo{
+	font-family: ralewaylight;
+	font-size: 1.2em;
+	color:  rgb(75,75,75) !important; 
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+}
+#modalAzul{
+	font-family: ralewaybold;
+	font-size: 1.2em;
+	color:  rgb(0,204,255) !important; 
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;	
+}
