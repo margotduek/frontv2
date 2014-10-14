@@ -191,13 +191,13 @@
 	margin-bottom:0px;
 }
 #input2{
-	margin-top:100px; 
+	margin-top:; 
 	width: 600px; 
 	height:65px; 
 	background: rgba(255,255,255,0.5); 
 	border:none;
 	font-family: ralewaybold;
-	font-size: .7em;
+	font-size: .5em;
 	color: rgb(75,75,75) !important;
 	padding-left: 35px; 
 	background-position: 98% 50%;
