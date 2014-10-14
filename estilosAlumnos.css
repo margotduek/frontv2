@@ -257,6 +257,9 @@
 	padding: 25px 10px !important;
 	text-transform: uppercase;
 	margin-bottom:0px;
+	margin-left:100px;
+	margin-right:100px;
+
 }
 #historialTabla td{
 	font-family: ralewaylight;
