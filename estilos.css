@@ -173,6 +173,7 @@
 	text-align: center;
 	padding: 10px 22px !important;
 	text-transform: uppercase;
+	margin-top: 7%;
 }
 #input2{
 	display:block !important; 
@@ -529,4 +530,43 @@
 	text-align: center;
 	padding: 0px 0px !important;
 	margin-top:0px;	
+}
+
+
+
+#textoLand{
+	font-family: ralewaylight;
+	font-size: 2em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#textoLand1{
+	font-family: ralewaybold;
+	font-size: 3em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	text-transform: uppercase;
+	margin-bottom:0px;
+}
+
+#textoLand2{
+	font-family: ralewaylight;
+	font-size: 1.8em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-top:0px;
+	margin-bottom:00px;
+}
+#textoLand3{
+	font-family: ralewaybold;
+	font-size: 2em;
+	color: white !important;
+	text-align: center;
+	padding: 0px 0px !important;
+	margin-bottom:0px;
 }
